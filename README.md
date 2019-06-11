@@ -27,7 +27,8 @@ Client was oriented on analytics as well as on data validity so relational datab
 
 ## How to run a demonstrative ETL
 
-As simple as those 2 comments in a command line:
+
+Unpack `data.zip` to `data` folder and then it's as simple as those 2 comments in a command line:
 
     python create.py
     python etl.py

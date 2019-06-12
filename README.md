@@ -25,6 +25,10 @@ In this project data coming from audio streaming start-up has been modeled and p
 
 Client was oriented on analytics as well as on data validity so relational database like Postgres seems to be a good choice. 
 
+## ETL
+
+ETL (Extract, Transform, Load) was designed to efficiently get data from `.json` files, update all duplicates and load them to the tables. All possible conflicts have been considered and appropriate clauses have been implemented. Pipeline runs smoothly on various of data. 
+
 ## How to run a demonstrative ETL
 
 
